@@ -29,7 +29,7 @@ public class DynamicWater2Df : MonoBehaviour
 
     void GenerateMesh()
     {
-        float range = bound.magnitude / (resolution - 1);
+        float range = bound.x / (resolution - 1);
         vertices = new Vector3[resolution * 2];
 
         for(int i = 0; i < resolution; i++)
